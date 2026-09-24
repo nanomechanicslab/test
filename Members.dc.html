@@ -41,7 +41,7 @@ a:hover{color:#0071e3;}
 
 <section style="padding: 30px clamp(20px,5vw,64px) 40px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: minmax(200px,240px) 1fr; gap: 40px">
   <div style="border-radius:28px;overflow:hidden;height:fit-content;">
-    <image-slot id="mem-pijush" shape="rect" style="width:100%;aspect-ratio:3/4;" placeholder="Photo: Pijush Ghosh"></image-slot>
+    <image-slot id="mem-pijush" src="images/mem-pijush.webp" shape="rect" style="width:100%;aspect-ratio:3/4;" placeholder="Photo: Pijush Ghosh"></image-slot>
   </div>
   <div>
     <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:26px;margin:0 0 4px;">Pijush Ghosh</h2>
@@ -69,7 +69,7 @@ a:hover{color:#0071e3;}
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;">
     <sc-for list="{{ current }}" as="m" hint-placeholder-count="6">
       <div style="background:#f5f5f7;border-radius:22px;padding:20px;display:flex;flex-direction:column;gap:10px;">
-        <div style="border-radius:16px;overflow:hidden;"><image-slot id="{{ m.id }}" shape="rect" style="width:100%;aspect-ratio:1/1;" placeholder="Photo"></image-slot></div>
+        <div style="border-radius:16px;overflow:hidden;"><image-slot id="{{ m.id }}" src="{{ m.photo }}" shape="rect" style="width:100%;aspect-ratio:1/1;" placeholder="Photo"></image-slot></div>
         <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:17px;">{{ m.name }}</div>
         <span style="align-self:flex-start;font-size:11px;font-weight:700;background:#ffffff;color:#0071e3;padding:3px 10px;border-radius:999px;">{{ m.role }}</span>
         <sc-if value="{{ m.coguide }}" hint-placeholder-val="{{ false }}"><p style="font-size:12px;color:#6e6e73;margin:0;">{{ m.coguide }}</p></sc-if>
@@ -85,7 +85,7 @@ a:hover{color:#0071e3;}
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:24px 20px;">
     <sc-for list="{{ alumni }}" as="m" hint-placeholder-count="8">
       <div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px;">
-        <div style="border-radius:50%;overflow:hidden;width:88px;height:88px;margin-bottom:8px;"><image-slot id="{{ m.id }}" shape="circle" style="width:100%;height:100%;" placeholder="Photo"></image-slot></div>
+        <div style="border-radius:50%;overflow:hidden;width:88px;height:88px;margin-bottom:8px;"><image-slot id="{{ m.id }}" src="{{ m.photo }}" shape="circle" style="width:100%;height:100%;" placeholder="Photo"></image-slot></div>
         <div style="font-size:13.5px;font-weight:600;">{{ m.name }}</div>
         <div style="font-size:12px;color:#6e6e73;">{{ m.roleYear }}</div>
         <sc-if value="{{ m.now }}" hint-placeholder-val="{{ false }}"><div style="font-size:12px;color:#0071e3;">{{ m.now }}</div></sc-if>
