@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<script src="./image-slot.js"></script>
+<style>
+body{margin:0;background:#ffffff;-webkit-font-smoothing:antialiased;}
+a{color:#0071e3;}
+a:hover{color:#0077ed;}
+</style>
+</helmet>
+
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;color:#1d1d1f;min-height:100vh;">
+
+<header style="display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px clamp(20px,5vw,64px);flex-wrap:wrap;">
+  <a href="Home.dc.html" style="display:flex;flex-direction:column;gap:2px;text-decoration:none;">
+    <span style="font-weight:600;letter-spacing:-0.015em;font-size:21px;color:#1d1d1f;">Nanomechanics Lab</span>
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">IIT Madras &middot; Applied Mechanics</span>
+  </a>
+  <nav style="display:flex;gap:28px;align-items:center;flex-wrap:wrap;">
+    <a href="Home.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Home</a>
+    <a href="Research.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Research</a>
+    <a href="Members.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Members</a>
+    <a href="Publications.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Publications</a>
+    <a href="Gallery Lab.dc.html" style="font-size:14px;font-weight:700;color:#0071e3;text-decoration:none;">Gallery</a>
+    <a href="http://www.teachtolearn.co.in/" target="_blank" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Rural School</a>
+  </nav>
+</header>
+
+<section style="padding:20px clamp(20px,5vw,64px) 10px;max-width:1240px;margin:0 auto;">
+  <a href="Home.dc.html" style="font-size:13px;text-decoration:none;">&larr; Back to Home</a>
+  <h1 style="font-weight:600;letter-spacing:-0.015em;font-size:clamp(32px,4vw,48px);margin:16px 0 0;">Rural School Projects</h1>
+  <p style="font-size:15.5px;line-height:1.6;color:#6e6e73;max-width:60ch;margin:12px 0 0;">Outreach and teaching at rural schools with Teach to Learn. Click any photo to view it larger.</p>
+  <nav style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;">
+    <a href="Gallery Lab.dc.html" style="font-size:13px;font-weight:600;background:#f5f5f7;color:#1d1d1f;padding:8px 16px;border-radius:999px;text-decoration:none;">Lab Fun Moments</a>
+    <a href="Gallery Rural.dc.html" style="font-size:13px;font-weight:600;background:#1d1d1f;color:#ffffff;padding:8px 16px;border-radius:999px;text-decoration:none;">Rural School Projects</a>
+  </nav>
+</section>
+
+<section style="padding:30px clamp(20px,5vw,64px) 80px;max-width:1240px;margin:0 auto;">
+  <div onClick="{{ openFromClick }}" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;">
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-01" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 1"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-02" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 2"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-03" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 3"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-04" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 4"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-05" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 5"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-06" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 6"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-07" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 7"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-08" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 8"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-09" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 9"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-10" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 10"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-11" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 11"></image-slot></div>
+    <div style="border-radius:18px;overflow:hidden;cursor:zoom-in;"><image-slot id="gal-rural-12" shape="rect" style="width:100%;aspect-ratio:4/3;" placeholder="Photo 12"></image-slot></div>
+  </div>
+</section>
+
+<sc-if value="{{ open }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ close }}" style="position:fixed;inset:0;background:rgba(0,0,0,0.88);z-index:1000;display:flex;align-items:center;justify-content:center;padding:60px 70px;box-sizing:border-box;">
+    <img src="{{ current }}" alt="" onClick="{{ stop }}" style="max-width:100%;max-height:100%;border-radius:12px;object-fit:contain;">
+    <button onClick="{{ prev }}" aria-label="Previous" style="position:absolute;left:16px;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,0.15);color:#ffffff;font-size:22px;cursor:pointer;">&lsaquo;</button>
+    <button onClick="{{ next }}" aria-label="Next" style="position:absolute;right:16px;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,0.15);color:#ffffff;font-size:22px;cursor:pointer;">&rsaquo;</button>
+    <button onClick="{{ close }}" aria-label="Close" style="position:absolute;right:16px;top:16px;width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,0.15);color:#ffffff;font-size:20px;cursor:pointer;">&times;</button>
+    <div style="position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#ffffff;font-size:13px;">{{ counter }}</div>
+  </div>
+</sc-if>
+
+<footer style="padding:48px clamp(20px,5vw,64px) 32px;background:#f5f5f7;display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between;">
+  <div style="max-width:360px;">
+    <div style="font-weight:600;letter-spacing:-0.015em;font-size:18px;">Nanomechanics Lab</div>
+    <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;margin-top:6px;">Department of Applied Mechanics</div>
+    <p style="font-size:13.5px;line-height:1.6;color:#6e6e73;margin-top:16px;">Indian Institute of Technology Madras, Mechanical Sciences Block (MSB), Room 224A, Chennai &ndash; 600036</p>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px;font-size:13.5px;">
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">Contact</span>
+    <a href="tel:+914422574060" style="text-decoration:none;">+91-44-2257-4060</a>
+    <a href="mailto:pijush@iitm.ac.in" style="text-decoration:none;">pijush@iitm.ac.in</a>
+  </div>
+</footer>
+<div style="text-align:center;padding:16px;font-size:12px;color:#86868b;background:#f5f5f7;">&copy; 2026 Pijush Ghosh, Nanomechanics Lab, IIT Madras</div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { list: [], i: -1 };
+  componentDidMount() {
+    this.onKey = (e) => {
+      if (this.state.i < 0) return;
+      if (e.key === 'Escape') this.setState({ i: -1 });
+      if (e.key === 'ArrowRight') this.step(1);
+      if (e.key === 'ArrowLeft') this.step(-1);
+    };
+    window.addEventListener('keydown', this.onKey);
+  }
+  componentWillUnmount() { window.removeEventListener('keydown', this.onKey); }
+  srcOf(slot) {
+    const img = slot.shadowRoot && slot.shadowRoot.querySelector('img');
+    const s = img && img.getAttribute('src');
+    return s && img.style.display !== 'none' ? s : null;
+  }
+  step(d) { this.setState(s => ({ i: (s.i + d + s.list.length) % s.list.length })); }
+  renderVals() {
+    const { list, i } = this.state;
+    return {
+      open: i >= 0 && list.length > 0,
+      current: list[i] || '',
+      counter: list.length ? (i + 1) + ' / ' + list.length : '',
+      openFromClick: (e) => {
+        if (window.omelette && window.omelette.writeFile) return; // editing mode: let slots take drops
+        const slot = e.target.closest && e.target.closest('image-slot');
+        if (!slot) return;
+        const slots = Array.from(e.currentTarget.querySelectorAll('image-slot'));
+        const pairs = slots.map(s => [s, this.srcOf(s)]).filter(p => p[1]);
+        const idx = pairs.findIndex(p => p[0] === slot);
+        if (idx < 0) return;
+        this.setState({ list: pairs.map(p => p[1]), i: idx });
+      },
+      close: () => this.setState({ i: -1 }),
+      stop: (e) => e.stopPropagation(),
+      prev: (e) => { e.stopPropagation(); this.step(-1); },
+      next: (e) => { e.stopPropagation(); this.step(1); },
+    };
+  }
+}
+</script>
+</body>
+</html>

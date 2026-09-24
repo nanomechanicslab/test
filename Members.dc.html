@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+
+<script src="./image-slot.js"></script>
+<style>
+body{margin:0;background:#ffffff;-webkit-font-smoothing:antialiased;}
+a{color:#0071e3;}
+a:hover{color:#0071e3;}
+</style>
+</helmet>
+
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;color:#1d1d1f;min-height:100vh;">
+
+<header style="display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px clamp(20px,5vw,64px);flex-wrap:wrap;">
+  <a href="Home.dc.html" style="display:flex;flex-direction:column;gap:2px;text-decoration:none;">
+    <span style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:21px;color:#1d1d1f;">Nanomechanics Lab</span>
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">IIT Madras · Applied Mechanics</span>
+  </a>
+  <nav style="display:flex;gap:28px;align-items:center;flex-wrap:wrap;">
+    <a href="Home.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Home</a>
+    <a href="Research.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Research</a>
+    <a href="Members.dc.html" style="font-size:14px;font-weight:700;color:#0071e3;text-decoration:none;">Members</a>
+    <a href="Publications.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Publications</a>
+    <a href="Gallery Lab.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Gallery</a>
+    <a href="http://www.teachtolearn.co.in/" target="_blank" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Rural School</a>
+  </nav>
+</header>
+
+<section style="padding:20px clamp(20px,5vw,64px) 10px;max-width:1200px;margin:0 auto;">
+  <span style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#0071e3;background:#f5f5f7;padding:6px 16px;border-radius:999px;">Members</span>
+  <h1 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(32px,4vw,48px);margin:20px 0 0;">The people</h1>
+</section>
+
+<section style="padding: 30px clamp(20px,5vw,64px) 40px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: minmax(200px,240px) 1fr; gap: 40px">
+  <div style="border-radius:28px;overflow:hidden;height:fit-content;">
+    <image-slot id="mem-pijush" shape="rect" style="width:100%;aspect-ratio:3/4;" placeholder="Photo: Pijush Ghosh"></image-slot>
+  </div>
+  <div>
+    <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:26px;margin:0 0 4px;">Pijush Ghosh</h2>
+    <p style="font-size:14px;color:#6e6e73;margin:0 0 22px;">Professor, Department of AMBE, IIT Madras</p>
+    <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#0071e3;margin-bottom:10px;">Education</div>
+    <table style="width:100%;border-collapse:collapse;font-size:14px;margin-bottom:26px;">
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;width:80px;color:#0071e3;font-weight:600;">PhD</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">2006, North Dakota State University (USA)</td></tr>
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;color:#0071e3;font-weight:600;">MTech</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">2002, IIT Kanpur</td></tr>
+      <tr><td style="padding:8px 0;color:#0071e3;font-weight:600;">BE</td><td style="padding:8px 0;">1998, Bengal Engineering College, Howrah</td></tr>
+    </table>
+    <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#0071e3;margin-bottom:10px;">Professional Experience</div>
+    <table style="width:100%;border-collapse:collapse;font-size:14px;">
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;width:140px;color:#0071e3;font-weight:600;">2021 – Present</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">Professor, IIT Madras</td></tr>
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;color:#0071e3;font-weight:600;">2016 – 2021</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">Associate Professor, IIT Madras</td></tr>
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;color:#0071e3;font-weight:600;">2011 – 2016</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">Assistant Professor, IIT Madras</td></tr>
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;color:#0071e3;font-weight:600;">2008 – 2011</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">Geotechnical Engineer, URS Corporations (Maryland, USA)</td></tr>
+      <tr><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;color:#0071e3;font-weight:600;">2006 – 2008</td><td style="padding:8px 0;border-bottom:1px solid #d2d2d7;">Postdoctoral Fellow, Johns Hopkins University (USA)</td></tr>
+      <tr><td style="padding:8px 0;color:#0071e3;font-weight:600;">1998 – 2000</td><td style="padding:8px 0;">Site Engineer, Bridge &amp; Roof India Ltd.</td></tr>
+    </table>
+  </div>
+</section>
+
+<section style="padding:30px clamp(20px,5vw,64px);max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:26px;margin:34px 0 24px;">Current Members</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;">
+    <sc-for list="{{ current }}" as="m" hint-placeholder-count="6">
+      <div style="background:#f5f5f7;border-radius:22px;padding:20px;display:flex;flex-direction:column;gap:10px;">
+        <div style="border-radius:16px;overflow:hidden;"><image-slot id="{{ m.id }}" shape="rect" style="width:100%;aspect-ratio:1/1;" placeholder="Photo"></image-slot></div>
+        <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:17px;">{{ m.name }}</div>
+        <span style="align-self:flex-start;font-size:11px;font-weight:700;background:#ffffff;color:#0071e3;padding:3px 10px;border-radius:999px;">{{ m.role }}</span>
+        <sc-if value="{{ m.coguide }}" hint-placeholder-val="{{ false }}"><p style="font-size:12px;color:#6e6e73;margin:0;">{{ m.coguide }}</p></sc-if>
+        <sc-if value="{{ m.topic }}" hint-placeholder-val="{{ true }}"><p style="font-size:13px;color:#1d1d1f;margin:0;line-height:1.5;">{{ m.topic }}</p></sc-if>
+        <sc-if value="{{ m.note }}" hint-placeholder-val="{{ false }}"><p style="font-size:13px;color:#6e6e73;margin:0;">{{ m.note }}</p></sc-if>
+      </div>
+    </sc-for>
+  </div>
+</section>
+
+<section style="padding:30px clamp(20px,5vw,64px) 70px;max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:26px;margin:34px 0 24px;">Alumni</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:24px 20px;">
+    <sc-for list="{{ alumni }}" as="m" hint-placeholder-count="8">
+      <div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px;">
+        <div style="border-radius:50%;overflow:hidden;width:88px;height:88px;margin-bottom:8px;"><image-slot id="{{ m.id }}" shape="circle" style="width:100%;height:100%;" placeholder="Photo"></image-slot></div>
+        <div style="font-size:13.5px;font-weight:600;">{{ m.name }}</div>
+        <div style="font-size:12px;color:#6e6e73;">{{ m.roleYear }}</div>
+        <sc-if value="{{ m.now }}" hint-placeholder-val="{{ false }}"><div style="font-size:12px;color:#0071e3;">{{ m.now }}</div></sc-if>
+      </div>
+    </sc-for>
+  </div>
+</section>
+
+<footer style="padding:48px clamp(20px,5vw,64px) 32px;background:#f5f5f7;display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between;">
+  <div style="max-width:360px;">
+    <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:18px;">Nanomechanics Lab</div>
+    <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;margin-top:6px;">Department of Applied Mechanics</div>
+    <p style="font-size:13.5px;line-height:1.6;color:#6e6e73;margin-top:16px;">Indian Institute of Technology Madras, Mechanical Sciences Block (MSB), Room 224A, Chennai – 600036</p>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px;font-size:13.5px;">
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">Contact</span>
+    <a href="tel:+914422574060" style="text-decoration:none;">+91-44-2257-4060</a>
+    <a href="mailto:pijush@iitm.ac.in" style="text-decoration:none;">pijush@iitm.ac.in</a>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px;font-size:13.5px;">
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">Elsewhere</span>
+    <a href="http://www.teachtolearn.co.in/" target="_blank" style="text-decoration:none;">Rural School Outreach</a>
+  </div>
+</footer>
+<div style="text-align:center;padding:16px;font-size:12px;color:#86868b;background:#f5f5f7;">© 2026 Pijush Ghosh, Nanomechanics Lab, IIT Madras</div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { list: [] };
+  componentDidMount() {
+    fetch('./members.json', { cache: 'no-store' }).then(r => r.json()).then(d => this.setState({ list: d.members || [] })).catch(e => console.error('members.json', e));
+  }
+  renderVals() {
+    const L = this.state.list;
+    return {
+      current: L.filter(m => m.status !== 'alumni'),
+      alumni: L.filter(m => m.status === 'alumni').map(m => ({ ...m, roleYear: [m.role, m.year].filter(Boolean).join(' · ') })),
+    };
+  }
+}
+</script>
+</body>
+</html>

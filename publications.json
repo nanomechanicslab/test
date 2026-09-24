@@ -1,0 +1,404 @@
+{
+  "_howTo": "Add a new paper by copying any block below and editing it. Fields: authors, title, journal (shown in bold, include volume/pages), year (number), doi (full link, or leave \"\"). Order does not matter — the page sorts newest first and groups by year.",
+  "publications": [
+    {
+      "authors": "Nidhi Murali; Pijush Ghosh",
+      "title": "Paradoxial role of an organic modifier in enhancing the interfacial strength of a polymer coating on clay",
+      "journal": "Journal of Materials in Civil Engineering",
+      "year": 2025,
+      "doi": "https://doi.org/10.1061/jmcee7.mteng-21890"
+    },
+    {
+      "authors": "Anas Saifi, Amit Kumar, Smruti Parimita, Pijush Ghosh",
+      "title": "Programmable 4D-Printed Soft Actuators: Harnessing Bending Strain Distribution for Embedded Topological Functionality",
+      "journal": "ACS Applied Engineering Materials",
+      "year": 2025,
+      "doi": "https://doi.org/10.1021/acsaenm.5c00225"
+    },
+    {
+      "authors": "Amit Kumar, Shaik Sameer Basha, Mukilarasi B, Vimalraj Selvaraj, Pijush Ghosh, Swathi Sudhakar",
+      "title": "Leveraging cancer microenvironment pH shift for actuation-induced multidrug release from chitosan/carboxymethyl cellulose bilayer film",
+      "journal": "International Journal of Biological Macromolecules",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.ijbiomac.2025.144701"
+    },
+    {
+      "authors": "Amogavarsha Kina, Sanghamitra Debta et.al",
+      "title": "Nanomechanical Investigations of Crystals of Copper Nanocluster Isomorphs: Enhanced Hardness of the Low-Density Analogue",
+      "journal": "Chemistry of Materials",
+      "year": 2025,
+      "doi": "https://doi.org/10.1021/acs.chemmater.4c03265"
+    },
+    {
+      "authors": "Smruti Parimita, Amit Kumar, Hariharan Krishnasway, Pijush Ghosh",
+      "title": "Solvent-assisted rapid manufacturing of free-form soft polymer structures with hierarchical pores",
+      "journal": "Journal of Manufacturing Processes, 133, 1196",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.jmapro.2024.11.065"
+    },
+    {
+      "authors": "Smruti Parimita, Amit Kumar, Hariharan Krishnasway, Pijush Ghosh",
+      "title": "4D printing of pH-responsive bilayer with programmable shape-shifting behaviour",
+      "journal": "European Polymer Journal, 222, 113581",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.eurpolymj.2024.113581"
+    },
+    {
+      "authors": "A Kumar, S Parimita, K Kiran, NR Mahapatra, P Ghosh",
+      "title": "Superhydrophobic asymmetric pH-responsive soft actuators: Implications for the development of anti-fouling medical devices",
+      "journal": "Chemical Engineering Journal, 497, 154772",
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.cej.2024.154772"
+    },
+    {
+      "authors": "Nidhi Murali; Adarsh Pathiyath; Pijush Ghosh",
+      "title": "Insights into the alteration in the interfacial performance of polymer-coating between clay and cement substrates",
+      "journal": "Journal of Materials in Civil Engineering",
+      "year": 2024,
+      "doi": "https://doi.org/10.1061/jmcee7.mteng-19429"
+    },
+    {
+      "authors": "S Debta, PY Kumbhar, P Ghosh, RK Anabattula",
+      "title": "Solvent-Responsive Functionally Graded Hydrogel Thin Films for Programmed Actuation",
+      "journal": "ACS Applied Engineering Materials, 2(5), 1136",
+      "year": 2024,
+      "doi": "https://doi.org/10.1021/acsaenm.4c00125"
+    },
+    {
+      "authors": "N Murali, J Li, A Agarwal, P Berthault, P Ghosh",
+      "title": "Role of particle gradation of clay–sand mixtures on the interfacial adhesion performance of polymer coatings",
+      "journal": "Clay Minerals, 59, 63",
+      "year": 2024,
+      "doi": "https://doi.org/10.1180/clm.2024.7"
+    },
+    {
+      "authors": "Nidhi Gupta, Amit Kumar, Pravin K Vaddavalli, Nitish R. Mahapatra, Akhil Varshney, Pijush Ghosh",
+      "title": "Efficient Reduction of the Scrolling of Descemet Membrane Endothelial Keratoplasty Grafts by Engineering the Medium",
+      "journal": "Acta Biomaterialia, 171, 239",
+      "year": 2023,
+      "doi": "https://doi.org/10.1016/j.actbio.2023.09.024"
+    },
+    {
+      "authors": "P Gujar, N Murali, NK Ilango, M Santhanam, P Ghosh",
+      "title": "Engineering interfacial strength of polymer coated hydrating cement paste by tuning calcium characteristics",
+      "journal": "Materials and Structures 56 (3), 65",
+      "year": 2023,
+      "doi": "https://doi.org/10.1617/s11527-023-02154-4"
+    },
+    {
+      "authors": "Kiran Mangalampalli, Pijush Ghosh, Fabien Volpi, Daniel Kiener, and Alexey Useinov",
+      "title": "Advances in multi-scale mechanical characterization",
+      "journal": "Journal of Applied Physics, 132, 220401",
+      "year": 2022,
+      "doi": "https://doi.org/10.1063/5.0135275"
+    },
+    {
+      "authors": "Rumiaya Pervin, Pijush Ghosh and Madivala G. Basavaraj",
+      "title": "Influence of initial composition of casting solution on morphology of porous thin polymer films produced via phase separation",
+      "journal": "Journal of Polymer Research, 29, 486",
+      "year": 2022,
+      "doi": "https://doi.org/10.1007/s10965-022-03325-7"
+    },
+    {
+      "authors": "Smruti Parimita, Amit Kumar, Hariharan Krishnasway, Pijush Ghosh",
+      "title": "Solvent triggered shape morphism of 4D printed hydrogels",
+      "journal": "Journal of Manufacturing Process",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.jmapro.2022.11.065"
+    },
+    {
+      "authors": "Amit Kumar, Raja Rajamanickam, Joyita Hazra, Nitish R Mahapatra, Pijush Ghosh",
+      "title": "Engineering the non-morphing point of actuation for controlled drug release by hydrogel bilayer across the pH spectrum",
+      "journal": "ACS Applied Materials Interface",
+      "year": 2022,
+      "doi": "https://doi.org/10.1021/acsami.2c16658"
+    },
+    {
+      "authors": "Sanghamitra Debta, Sonam Butia, Dillip Satapathy, Pijush Ghosh",
+      "title": "Intrinsic-water desorption induced thermomechanical response of hydrogels",
+      "journal": "Soft Matter, 18, 8285",
+      "year": 2022,
+      "doi": "https://doi.org/10.1039/d2sm01054b"
+    },
+    {
+      "authors": "Sanghamitra Debta, Pramod Kumbhar, Ratna Kumar Anabattula, Pijush Ghosh",
+      "title": "Anomalous temperature dependent stiffness evolution in hydrogels",
+      "journal": "Materials Letter",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.matlet.2022.133016"
+    },
+    {
+      "authors": "Aleena Alex, Nirrupama Kamala Ilango, Pijush Ghosh",
+      "title": "Interface microstructure based mechanical property evaluation of C-S-H",
+      "journal": "Materials in Civil Engineering",
+      "year": 2022,
+      "doi": "https://doi.org/10.1061/(asce)mt.1943-5533.0004581"
+    },
+    {
+      "authors": "Nidhi Murali; Pratik Gujar; Pijush Ghosh",
+      "title": "Performance of clay-epoxy interface at different points on proctor curve",
+      "journal": "Applied Clay Science, 226",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.clay.2022.106553"
+    },
+    {
+      "authors": "Rajesh Kumar Meena, Sri Datta Rapaka, Raghunandan Pratoori, Ratna Kumar Annabattula and Pijush Ghosh",
+      "title": "An embedded interface regulates the underwater actuation of solvent-responsive soft grippers",
+      "journal": "Soft Matter, 18, 372-381",
+      "year": 2022,
+      "doi": "https://doi.org/10.1039/d1sm01229k"
+    },
+    {
+      "authors": "Pratik Gujar; Manu Santhanam; Pijush Ghosh",
+      "title": "Evaluation of interfacial strength between hydrating cement paste and epoxy coating",
+      "journal": "Construction & Building Materials",
+      "year": 2021,
+      "doi": "https://doi.org/10.1016/j.conbuildmat.2021.122511"
+    },
+    {
+      "authors": "Ghosh, Debasmita; Ganayee, Mohd Azhardin; Som, Anirban; Srikrishnarka, Pillalamarri; Murali, Nidhi; Bose, Sandeep; Chakraborty, Amrita; Mondal, Biswajit; Ghosh, Pijush; Pradeep, Thalappil",
+      "title": "Hierarchical Assembly of Atomically Precise Metal Clusters as a Luminescent Strain Sensor",
+      "journal": "ACS Applied Materials Interface",
+      "year": 2021,
+      "doi": "https://doi.org/10.1021/acsami.0c19239"
+    },
+    {
+      "authors": "Rumiaya Pervin, Pijush Ghosh and Madivala G. Basavaraj",
+      "title": "Engineering Polymer Film Porosity for Solvent Triggered Actuation",
+      "journal": "Soft Matter",
+      "year": 2021,
+      "doi": "https://doi.org/10.1039/d0sm01772h"
+    },
+    {
+      "authors": "Nirrupama Kamala Ilango, Pratik Gujar, Ashwin Konanur Nagesh, Aleena Alex, Pijush Ghosh",
+      "title": "Interfacial adhesion mechanism between organic polymer coating and hydrating cement paste",
+      "journal": "Cement and Concrete Composites, 115, 103856",
+      "year": 2021,
+      "doi": "https://doi.org/10.1016/j.cemconcomp.2020.103856"
+    },
+    {
+      "authors": "Raghunandan Pratoori, Rajesh Kumar Meena, Pijush Ghosh, Ratna Kumar Annabattula",
+      "title": "Coupled diffusion–deformation behavior of stimuli-responsive thin polymer films",
+      "journal": "Mechanics of Materials, 152, 103648",
+      "year": 2021,
+      "doi": "https://doi.org/10.1016/j.mechmat.2020.103648"
+    },
+    {
+      "authors": "Samba Siva Vadla, Payel Bandyopadhyay, Subish John, Pijush Ghosh, Somnath C Roy",
+      "title": "TiO2 Nanotube Arrays on Flexible Kapton Substrates for Photo-Electrochemical Solar Energy Conversion",
+      "journal": "ACS Applied Nano Materials, 3, 11715-11724",
+      "year": 2020,
+      "doi": "https://doi.org/10.1021/acsanm.0c02028"
+    },
+    {
+      "authors": "Korath Shivan Sugi, Payel Bandyopadhyay, Mohammad Bodiuzzaman, Abhijit Nag, Manjapoyil Hridya, Wakeel Ahmed Dar, Pijush Ghosh and Thalappil Pradeep",
+      "title": "Manifestation of Structural Differences of Atomically Precise Cluster-Assembled Solids in Their Mechanical Properties",
+      "journal": "Chemistry of Materials, 32, 18, 7973-7984",
+      "year": 2020,
+      "doi": "https://doi.org/10.1021/acs.chemmater.0c02905"
+    },
+    {
+      "authors": "Ashwin Konanur Nagesh, Nirrupama Kamala Ilango, Aleena Alex, and Pijush Ghosh",
+      "title": "Effect of Pore Solution Calcium and Substrate Calcium on PMMA/Cement Paste Interface during Early Stages of Hydration",
+      "journal": "Journal of American Ceramic Society",
+      "year": 2020,
+      "doi": "https://doi.org/10.1111/jace.17104"
+    },
+    {
+      "authors": "VP Anju, Raghunandan Pratoori, Deepak Kumar Gupta, Rajendra Ganapat Joshi, Ratna Kumar Annabattula, Pijush Ghosh",
+      "title": "Controlled Shape Morphing of Solvent Free Thermoresponsive Soft Actuators",
+      "journal": "Soft Matter",
+      "year": 2020,
+      "doi": "https://doi.org/10.1039/d0sm00020e"
+    },
+    {
+      "authors": "Payel Bandyopadhyay, Mrinal Dwivedi, Hariharan Krishnaswamy, Pijush Ghosh",
+      "title": "Prediction of glass transition temperature and Young's modulus of an inaccessible polymer substrate in changing environment",
+      "journal": "Polymer, 191, 122274",
+      "year": 2020,
+      "doi": "https://doi.org/10.1016/j.polymer.2020.122274"
+    },
+    {
+      "authors": "Rumaiya Pervin, Pijush Ghosh, Madivala G Basavaraj",
+      "title": "Tailoring pore distribution in polymer films via evaporation induced phase separation",
+      "journal": "RSC Advances, 9, 15593-15605",
+      "year": 2019,
+      "doi": "https://doi.org/10.1039/c9ra01331h"
+    },
+    {
+      "authors": "G. Mallikarjunachari, Pijush Ghosh",
+      "title": "The Pile-up Response of Polymer Thin Films to Static and Dynamic Loading",
+      "journal": "Thin Solid Films, 677, 1-12",
+      "year": 2019,
+      "doi": "https://doi.org/10.1016/j.tsf.2019.01.040"
+    },
+    {
+      "authors": "Aleena Alex, Nirrupama Illango, Pijush Ghosh",
+      "title": "Comparative Role of Chain Scission and Solvation in the Biodegradation of Polylactic Acid (PLA)",
+      "journal": "Journal of Physical Chemistry B, 122(41), 9516-9526",
+      "year": 2018,
+      "doi": "https://doi.org/10.1021/acs.jpcb.8b07930"
+    },
+    {
+      "authors": "Santhosh Mathesan, Madhusmita Tripathy, Anand Srivastava, Pijush Ghosh",
+      "title": "Non-Affine Deformation of Free Volume during Strain Dependent Diffusion in Polymer Thin Films",
+      "journal": "Polymer, 155, 177-186",
+      "year": 2018,
+      "doi": "https://doi.org/10.1016/j.polymer.2018.09.035"
+    },
+    {
+      "authors": "G. Suresh, Sanjay Jatav, G. Mallikarjunachari, M. S. Ramachandra Rao, Pijush Ghosh, and Dillip K. Satapathy",
+      "title": "Influence of Microstructure on Nanomechanical Properties of Polymorphic Phases of Poly(vinylidene fluoride)",
+      "journal": "Journal of Physical Chemistry B, 122, 8591-8600",
+      "year": 2018,
+      "doi": "https://doi.org/10.1021/acs.jpcb.8b05972"
+    },
+    {
+      "authors": "Korath Sivan Sugi, G. Mallikarjunachari, Anirban Som, Pijush Ghosh, T. Pradeep",
+      "title": "Probing the Mechanical Response of Luminescent Dithiol-Protected Ag29(BDT)12(TPP)4 Cluster Crystals",
+      "journal": "ChemNanoMat, 10.1002/cnma.201700371",
+      "year": 2018,
+      "doi": "https://doi.org/10.1002/cnma.201700371"
+    },
+    {
+      "authors": "Amrita Rath, P. M. Geethu, Santhosh Mathesan, Dillip K Satapathy, Pijush Ghosh",
+      "title": "Solvent Triggered Irreversible Shape Morphism of Biopolymer Films",
+      "journal": "Soft Matter, 14, 1672",
+      "year": 2018,
+      "doi": "https://doi.org/10.1039/c8sm00042e"
+    },
+    {
+      "authors": "Santhosh Mathesan, Amrita Rath, Pijush Ghosh",
+      "title": "Insights on Water Dynamics in the Hygromorphic Phenomenon of Biopolymer Films",
+      "journal": "Journal of Physical Chemistry B",
+      "year": 2017,
+      "doi": "https://doi.org/10.1021/acs.jpcb.7b00980"
+    },
+    {
+      "authors": "G. Mallikarjunachari, Pijush Ghosh",
+      "title": "Application of Nanomechanical Response of Wrinkled Thin Films in Surface Feature Generation",
+      "journal": "European Polymer Journal",
+      "year": 2017,
+      "doi": "https://doi.org/10.1016/j.eurpolymj.2017.02.040"
+    },
+    {
+      "authors": "Aleena Alex, Ashwin K. Nagesh, Pijush Ghosh",
+      "title": "Surface dissimilarity affects critical distance of influence for confined water",
+      "journal": "RSC Advances, 7, 3573-3584",
+      "year": 2017,
+      "doi": "https://doi.org/10.1039/c6ra25758e"
+    },
+    {
+      "authors": "Amrita Rath, Santhosh Mathesan, Pijush Ghosh",
+      "title": "Folding Behaviour and Molecular Mechanism of Cross-Linked Biopolymer Film in Response to Water",
+      "journal": "Soft Matter, 12, 9210",
+      "year": 2016,
+      "doi": "https://doi.org/10.1039/c6sm01994c"
+    },
+    {
+      "authors": "G. Mallikarjunachari, Pijush Ghosh",
+      "title": "Analysis of strength and response of polymer nano thin film interfaces applying nanoindentation and nanoscratch techniques",
+      "journal": "Polymer, 90, 53-56",
+      "year": 2016,
+      "doi": "https://doi.org/10.1016/j.polymer.2016.02.042"
+    },
+    {
+      "authors": "G. Mallikarjunachari, Pijush Ghosh",
+      "title": "Nanomechanical study of polymer-polymer thin film interface under applied service conditions",
+      "journal": "Journal of Applied Polymer Science",
+      "year": 2016,
+      "doi": "https://doi.org/10.1002/app.43532"
+    },
+    {
+      "authors": "Santhosh Mathesan, Amrita Rath, Pijush Ghosh",
+      "title": "Molecular mechanisms in deformation of cross-linked hydrogel nanocomposite",
+      "journal": "Materials Science & Engineering C, 59, 157-16",
+      "year": 2016,
+      "doi": "https://doi.org/10.1016/j.msec.2015.09.087"
+    },
+    {
+      "authors": "Amrita Rath, Santhosh Mathesan, Pijush Ghosh",
+      "title": "Nanomechanical characterization and molecular mechanism study of nanoparticle reinforced and cross-linked chitosan biopolymer",
+      "journal": "Journal of the Mechanical Behaviour of Biomedical Materials, 55, 42-52",
+      "year": 2016,
+      "doi": "https://doi.org/10.1016/j.jmbbm.2015.10.005"
+    },
+    {
+      "authors": "Priyanthi, M. Amarasinghey, A. Anandarajah, Pijush Ghosh",
+      "title": "Molecular dynamic study of capillary forces on clay particles",
+      "journal": "Applied Clay Science, 88-89, 170-177",
+      "year": 2014,
+      "doi": "https://doi.org/10.1016/j.clay.2013.12.022"
+    },
+    {
+      "authors": "Chakroborty, P., Das, A., and Ghosh, P.",
+      "title": "Determining reliability of an asphalt mix design: case of Marshall method",
+      "journal": "Journal of Transportation Engineering, p. 31",
+      "year": 2010,
+      "doi": "https://doi.org/10.1061/(asce)0733-947x(2010)136:1(31)"
+    },
+    {
+      "authors": "Pijush Ghosh, Dinesh Katti, Kalpana Katti",
+      "title": "Molecular Mechanisms Responsible for Enhanced Mechanical Behavior of Proteins in the Proximity of Mineral in a Biological Nanocomposite Nacre",
+      "journal": "Journal of NanoMaterials, Article ID 582973",
+      "year": 2008,
+      "doi": "https://doi.org/10.1155/2008/582973"
+    },
+    {
+      "authors": "Pijush Ghosh, Dinesh Katti, Kalpana Katti",
+      "title": "Mineral proximity influences mechanical response of proteins in biological mineral-protein hybrid systems",
+      "journal": "Biomacromolecules, 8, 851-856",
+      "year": 2007,
+      "doi": "https://doi.org/10.1021/bm060942h"
+    },
+    {
+      "authors": "You, Min., Spangler, James., Li, Edwin., Han, Xue., Ghosh, Pijush., Hristova, Kalina.",
+      "title": "Effect of pathogenic cysteine mutations on FGFR3 transmembrane domain dimerization in detergents and lipid bilayers",
+      "journal": "Biochemistry, 46(39), 11039-11046",
+      "year": 2007,
+      "doi": "https://doi.org/10.1021/bi700986n"
+    },
+    {
+      "authors": "Katti, D., Schmidt, S., Ghosh, P., and Katti, K.",
+      "title": "Steered molecular dynamics simulations of dry and hydrated sodium montmorillonite interlayer",
+      "journal": "Canadian Geotechnical Journal, 44, 425-435",
+      "year": 2007,
+      "doi": "https://doi.org/10.1139/t06-127"
+    },
+    {
+      "authors": "Pijush Ghosh, Dinesh R. Katti, Kalpana S. Katti",
+      "title": "Impact of β-Sheet Conformations on the Mechanical Response of Protein in Biocomposites",
+      "journal": "Materials and Manufacturing Process, 21, 276-282",
+      "year": 2006,
+      "doi": "https://doi.org/10.1080/10426910600611706"
+    },
+    {
+      "authors": "Kalpana S. Katti, Debashis Sikdar, Dinesh R. Katti, Pijush Ghosh, Devendra Verma",
+      "title": "Molecular interactions in intercalated organically modified clay in clay-polycaprolactone nanocomposites: Experiments and Modeling",
+      "journal": "Polymer, 47, 403-414",
+      "year": 2006,
+      "doi": "https://doi.org/10.1016/j.polymer.2005.11.055"
+    },
+    {
+      "authors": "Katti, D., Ghosh, P., Schmidt, S., and Katti, K.",
+      "title": "Evaluation of Mechanical Response of Montmorillonite with positively charged amino acids in the interlayer",
+      "journal": "Biomacromolecules, 6, 3276-3282",
+      "year": 2005,
+      "doi": "https://doi.org/10.1021/bm0503219"
+    },
+    {
+      "authors": "Katti, D., Schmidt, S., Ghosh, P., and Katti, K.",
+      "title": "Modeling Response of Clay Interlayer to Applied Stress Using Steered Molecular Dynamics",
+      "journal": "Clays and Clay Minerals, Vol. 53, No. 2, 171-178",
+      "year": 2005,
+      "doi": "https://doi.org/10.1346/ccmn.2005.0530207"
+    },
+    {
+      "authors": "Schmidt, S., Katti, D., Ghosh, P., and Katti, K.",
+      "title": "Evolution of Mechanical Response of Sodium Montmorillonite Interlayer with Increasing Hydration by Molecular Dynamics",
+      "journal": "Langmuir, 8069-8076",
+      "year": 2005,
+      "doi": "https://doi.org/10.1021/la050615f"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+
+<script src="./image-slot.js"></script>
+<style>
+body{margin:0;background:#ffffff;-webkit-font-smoothing:antialiased;}
+a{color:#0071e3;}
+a:hover{color:#0071e3;}
+</style>
+</helmet>
+
+<div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;color:#1d1d1f;min-height:100vh;">
+
+<header style="display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px clamp(20px,5vw,64px);flex-wrap:wrap;">
+  <a href="Home.dc.html" style="display:flex;flex-direction:column;gap:2px;text-decoration:none;">
+    <span style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:21px;color:#1d1d1f;">Nanomechanics Lab</span>
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">IIT Madras &middot; Applied Mechanics</span>
+  </a>
+  <nav style="display:flex;gap:28px;align-items:center;flex-wrap:wrap;">
+    <a href="Home.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Home</a>
+    <a href="Research.dc.html" style="font-size:14px;font-weight:700;color:#0071e3;text-decoration:none;">Research</a>
+    <a href="Members.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Members</a>
+    <a href="Publications.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Publications</a>
+    <a href="Gallery Lab.dc.html" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Gallery</a>
+    <a href="http://www.teachtolearn.co.in/" target="_blank" style="font-size:14px;color:#1d1d1f;text-decoration:none;">Rural School</a>
+  </nav>
+</header>
+
+<section style="padding:20px clamp(20px,5vw,64px) 30px;max-width:1200px;margin:0 auto;">
+  <span style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#0071e3;background:#f5f5f7;padding:6px 16px;border-radius:999px;">Research</span>
+  <h1 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(32px,4vw,48px);margin:20px 0 0;">What we work on</h1>
+  <p style="font-size:15.5px;line-height:1.65;color:#6e6e73;max-width:70ch;margin:16px 0 0;">From 4D-printed biopolymers to cement microstructure &mdash; tied together by nanomechanical experiments and multiscale modeling.</p>
+  <nav style="display:flex;gap:10px;flex-wrap:wrap;margin-top:26px;">
+    <a href="#smart" style="font-size:13px;font-weight:600;background:#f5f5f7;padding:8px 16px;border-radius:999px;text-decoration:none;color:#1d1d1f;">4D Printing</a>
+    <a href="#polymer" style="font-size:13px;font-weight:600;background:#f5f5f7;padding:8px 16px;border-radius:999px;text-decoration:none;color:#1d1d1f;">Cement&ndash;Polymer&ndash;Clay</a>
+    <a href="#hydration" style="font-size:13px;font-weight:600;background:#f5f5f7;padding:8px 16px;border-radius:999px;text-decoration:none;color:#1d1d1f;">Cement Microstructure</a>
+    <a href="#mechanics" style="font-size:13px;font-weight:600;background:#f5f5f7;padding:8px 16px;border-radius:999px;text-decoration:none;color:#1d1d1f;">Thin Films</a>
+    <a href="#past" style="font-size:13px;font-weight:600;background:#f5f5f7;padding:8px 16px;border-radius:999px;text-decoration:none;color:#1d1d1f;">Past Research</a>
+  </nav>
+</section>
+
+<section id="smart" style="padding:48px clamp(20px,5vw,64px);max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(26px,3vw,34px);margin:0 0 18px;">4D Printing of Biopolymers</h2>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">4D printing is defined as <strong>&ldquo;3D printing + time&rdquo;</strong>, with the fourth dimension being time. 4D printing refers to single-material or multi-material printing of a device or object that can be transformed from a 1D strand into a pre-programmed 3D shape, from a 2D surface into a pre-programmed 3D shape, and is capable of morphing between different dimensions. This advanced technology enables us to fabricate dynamic structures which can change their shapes, functions, or properties with time when appropriate external stimuli (e.g., water, pH, temperature) are applied.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/4dprint1.png" alt="" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/4dprint2.png" alt="" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+    </figure>
+  </div>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/4dprint3.png" alt="3D Printer with FDM / DIW Heads" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">3D Printer with FDM / DIW Heads</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">We work with stimuli-responsive smart biopolymers. We perform different experimental characterizations and develop 2D or 3D continuum-scale models to predict the behaviors and the mechanisms involved.</p>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Solvent Triggered Actuation (reversible &amp; irreversible)</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Stimuli-responsive biopolymers with advanced functionalities have found a wide range of futuristic applications as soft actuators, morphing medical devices, artificial muscles, soft robotics, sensors, etc. We work with biopolymers (chitosan, PVA etc.) which respond to solvent (water, the simplest one) as an external trigger. The films actuate, or fold and unfold, when exposed to solvent.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <a href="#video1" target="_blank" style="position:relative;display:block;background:#f5f5f7;border-radius:18px;overflow:hidden;">
+        <img src="https://home.iitm.ac.in/pijush/images/video1.jpg" alt="Actuation of biopolymer (chitosan) thin film when exposed to solvent" loading="lazy" style="width:100%;height:auto;display:block;">
+        <span style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;"><span style="width:0;height:0;border-left:20px solid #ffffff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px;"></span></span>
+      </a>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Actuation of biopolymer (chitosan) thin film when exposed to solvent</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <a href="#video2" target="_blank" style="position:relative;display:block;background:#f5f5f7;border-radius:18px;overflow:hidden;">
+        <img src="https://home.iitm.ac.in/pijush/images/video2.jpg" alt="Experiment indicating load carrying ability of thin film during actuation or folding" loading="lazy" style="width:100%;height:auto;display:block;">
+        <span style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;"><span style="width:0;height:0;border-left:20px solid #ffffff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px;"></span></span>
+      </a>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Experiment indicating load carrying ability of thin film during actuation or folding</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The folding is due to differential swelling across the thickness of the film caused by the concentration gradient of solvent. During folding, the polymer chains at the bottom layer experience tension, whereas the top layer chains are in compression. With the passage of time, water diffuses further through the layers of the film, reducing the concentration gradient, thus relaxing the polymer chains to go back to their equilibrium state.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/schematic.jpg" alt="Schematic showing the concentration gradient of solvent molecules developed during folding" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Schematic showing the concentration gradient of solvent molecules developed during folding</figcaption>
+    </figure>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <a href="#video3" target="_blank" style="position:relative;display:block;background:#f5f5f7;border-radius:18px;overflow:hidden;">
+        <img src="https://home.iitm.ac.in/pijush/images/video3.jpg" alt="Possible application in gripping of objects" loading="lazy" style="width:100%;height:auto;display:block;">
+        <span style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;"><span style="width:0;height:0;border-left:20px solid #ffffff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px;"></span></span>
+      </a>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Possible application in gripping of objects</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <a href="#video4" target="_blank" style="position:relative;display:block;background:#f5f5f7;border-radius:18px;overflow:hidden;">
+        <img src="https://home.iitm.ac.in/pijush/images/video4.jpg" alt="Inside solvent, possible application in wrapping of an object" loading="lazy" style="width:100%;height:auto;display:block;">
+        <span style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;"><span style="width:0;height:0;border-left:20px solid #ffffff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px;"></span></span>
+      </a>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Inside solvent, possible application in wrapping of an object</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Interestingly, this folding and unfolding behaviour can be controlled by playing with the properties of the polymer matrix and the solvent. For example, in one of our works, we added some organic solvent to the water (used as trigger) and could achieve irreversible or permanent folding. This permanent folding behaviour can be used for gripping and lifting some materials.</p>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Dual Triggered Actuation</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">It is not always possible or even convenient to have water in bulk around to trigger this folding. In one of our works, we applied a pNIPAM layer as a source of water or solvent supply when the temperature goes beyond its LCST (around 35&deg;C). Figure 1 illustrates the response of the chitosan/pNipam bilayer to temperature. As the lower critical solution temperature of the synthesized pNipam particles is about 32.5&deg;C, the actuation of the film begins around 32.5&deg;C &ndash; 35&deg;C. As exemplified in Figure 1A, upon increasing the temperature to 35&deg;C, water released by pNipam goes to the chitosan and triggers the actuator to undergo out-of-plane folding and unfolding. Figure 1B presents the folded state of the actuator, where the pNipam chains become dehydrated and collapsed due to the increase of temperature above the LCST of the microgels. Figure 1C and Figure 1D represent the unfolded state of the chitosan/pNipam bilayer.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/schematic1.jpg" alt="Schematic showing how pNipam layer can be applied as source of solvent necessary to trigger actuation" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Schematic showing how pNipam layer can be applied as source of solvent necessary to trigger actuation</figcaption>
+    </figure>
+  </div>
+  <div style="max-width:560px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <a href="#video5" target="_blank" style="position:relative;display:block;background:#f5f5f7;border-radius:18px;overflow:hidden;">
+        <img src="https://home.iitm.ac.in/pijush/images/video5.jpg" alt="Flapping of butterfly as temperature touches 35 degrees" loading="lazy" style="width:100%;height:auto;display:block;">
+        <span style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;"><span style="width:0;height:0;border-left:20px solid #ffffff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px;"></span></span>
+      </a>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Flapping of butterfly as temperature touches 35 degrees</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Continuum Scale Model</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Diffusion of solvent results in a concentration gradient which leads to a displacement field, showing up in the form of folding. During this phenomenon, the diffusion affects the mechanical properties of the polymer matrix, which in turn affects the diffusion &mdash; a coupled diffusion&ndash;deformation mechanism. We develop a model based on this coupled mechanism which can predict the large deformation caused during the reversible folding behavior of a polymeric thin film. The formulation incorporates a concentration-dependent Young&rsquo;s modulus variation. This continuum-scale model provides detailed insight into the concentration gradient and strain field developed during folding and unfolding.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/diffusion.jpg" alt="Diffusion Couple Deformation FE Modeling of Folding: Indicating curvature and concentration gradient" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Diffusion Couple Deformation FE Modeling of Folding: Indicating curvature and concentration gradient</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/different.jpg" alt="Different shapes and patterns that can be obtained with different positioning of pNipam: FEM Study" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Different shapes and patterns that can be obtained with different positioning of pNipam: FEM Study</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Interface Controlled Actuation</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The above examples relate to single-layer polymer films. To bring in more diverse applications and apply multiple triggers, it is necessary to apply a bilayer so that the second layer can bring additional functionalities. In one of our works, we introduced PMMA as a second layer on top of the active chitosan layer. When we talk of a bilayer or multilayer, the role of the &lsquo;interface&rsquo; is inevitable. We showed, both through modelling and experimentally, that the strength of this interface between PMMA and chitosan can be tuned (strong, weak, weaker, no interface etc.) to achieve different folding behaviour. Continuum-scale models were built to simulate the experimentally obtained interface conditions.</p>
+</section>
+
+<section id="polymer" style="padding:48px clamp(20px,5vw,64px);max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(26px,3vw,34px);margin:0 0 18px;">Cement&ndash;Polymer&ndash;Clay Interface</h2>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The application of polymer coating on concrete surfaces is increasing significantly, both as protective coating and/or as aesthetic coating. The applied polymers are of varying functional groups, such as epoxy, PMMA, polyurethane etc. It is usual practice in the construction industry to coat polymers on a concrete surface either when it is completely hard, or when it is old enough. Applying different experimental methods and phase-field modeling techniques, we are trying to determine the most appropriate window for coating a certain polymer on a concrete/cement surface so as to obtain the highest interfacial shear strength.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/polymer1.jpg" alt="Factors contributing to interfacial adhesion between cement paste and polymer coating" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Factors contributing to interfacial adhesion between cement paste and polymer coating</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/polymer2.jpg" alt="Slant shear test for evaluating shear strength of cement-polymer interface. Also showing two types of failures observed" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Slant shear test for evaluating shear strength of cement-polymer interface. Also showing two types of failures observed</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The continuum-scale FEM model helps us predict crack propagation at the interface and the distribution of stresses around it.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/polymer3.jpg" alt="Stress contours obtained from FEM study simulating a) slant shear test b) pull-off test" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Stress contours obtained from FEM study simulating a) slant shear test b) pull-off test</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/polymer4.jpg" alt="Molecular mechanism involved in polymer-cement interaction studied applying MD" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Molecular mechanism involved in polymer-cement interaction studied applying MD</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">In another project, we are working on developing interfacing between concrete and clay (particularly the smectite group). It is challenging to design a polymer or polymer blend which can interact with the functional groups of both the cement surface and clay surface so as to form a good interface. It is important to determine the right environment of coating, in terms of the instant during hydration of cement and also the clay condition.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/polymer5.jpg" alt="Possible geotechnical application where concrete-clay interface is encountered" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Possible geotechnical application where concrete-clay interface is encountered</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="hydration" style="padding:48px clamp(20px,5vw,64px);max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(26px,3vw,34px);margin:0 0 18px;">Cement Hydration &amp; Microstructure</h2>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:0 0 12px;">Needle Based Microstructure</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">We work on fundamentals of cement hydration, following a multiscale study approach, both experimentally and through simulations. We are primarily interested in the mechanical properties of cement paste in the initial days of hydration. In one of our recent works, we reported that the needle-like interfaces between cement grains play a major role in determining the mechanical properties. SEM images indicate that these needles are unique to the minerals (C3S, C2S, C3A, etc.) and state of hydration (7 days, 14 days, 28 days, etc.). We have combined the microstructures obtained from SEM images, the mechanical properties from nanoindentation and the Finite Element Method to develop a multiscale model capable of predicting mechanical properties of hydrating C3S and C2S. Slowly, we would like to develop a model for cement as a whole.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/hydration1.jpg" alt="C3S grains and needle microstructure during hydration" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">C3S grains and needle microstructure during hydration</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/hydration2.jpg" alt="C2S grains and needle microstructure during hydration" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">C2S grains and needle microstructure during hydration</figcaption>
+    </figure>
+  </div>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/hydration3.jpg" alt="Multiscale experimental and modeling scheme incorporating needle microstructure" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Multiscale experimental and modeling scheme incorporating needle microstructure</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">We have applied our needle-microstructure-based multiscale model to understand the possible mechanism by which Silica Nanoparticles (SNP) modify the mechanical properties of cement.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/hydration4.jpg" alt="Needle microstructure of Silica Nanoparticle (SNP) doped cement" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Needle microstructure of Silica Nanoparticle (SNP) doped cement</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Molecular Dynamics Simulation of Hydration of Mineral Surfaces</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">We apply MD to understand the hydrating characteristics of different cement mineral surfaces at the molecular length scale. We have noticed that the behavior (static and dynamic) of the water molecules differs depending on the nature of the surfaces in nearest proximity.</p>
+</section>
+
+<section id="mechanics" style="padding:48px clamp(20px,5vw,64px);max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(26px,3vw,34px);margin:0 0 18px;">Mechanics of Polymer Thin Films &amp; Nanocomposites</h2>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">We study the mechanical responses of polymer thin films, their interfaces, etc., applying a combination of experimental techniques and FEM and/or Molecular Dynamics simulations depending on the problem. Both experimentally and through continuum models, we characterize different polymer nanocomposites synthesized in our lab.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/mechanics.jpg" alt="Nanoindentation and Load-Displacement Plot" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Nanoindentation and Load-Displacement Plot</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Thin Film Interface</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Single and multiple layers of polymer thin film (30 to 500 nanometers thick) are found in different engineering, electronic, optical, and data storage applications. Tissue regeneration, implants, stents, and drug delivery are some of the emerging biomedical applications of thin films. In a thin film system with two or more layers of coating, the interface plays an extremely important role in determining the overall behaviour, performance and characteristics of the system. Our group adopts nanomechanical techniques including nanoindentation, nanoscratch and nano-dynamic mechanical analysis (nanoDMA) to study and characterize these interfaces.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/mechanics2.jpg" alt="Schematic diagram showing strain distribution on wrinkled surface at different regions" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Schematic diagram showing strain distribution on wrinkled surface at different regions</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/mechanics3.jpg" alt="Synthesis of nanopillars of uniform and varying size with the help of nanoindentation" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Synthesis of nanopillars of uniform and varying size with the help of nanoindentation</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Confined Thin Films</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">One of the major difficulties we encounter while measuring the modulus and hardness of thin films is the &lsquo;substrate effect&rsquo;. When indenting past a certain depth, the properties of the substrate start influencing the measured film properties significantly, and this substrate effect must be separated from the measured composite values. This &lsquo;substrate effect&rsquo;, however, can also be used to our advantage. For example, in one of our works, we determined the property of an inaccessible substrate under a changing temperature environment by making use of it. We used experimental data and Finite Element Modeling in the same study to determine the necessary properties (including the glass transition temperature of the substrate).</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/mechanics4.jpg" alt="Stress contours beneath the indenter for (a) PMMA, (b) epoxy, (c) bi-layer at 30°C (d) the variation of σz beneath the indenter obtained from FEA" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Stress contours beneath the indenter for (a) PMMA, (b) epoxy, (c) bi-layer at 30°C (d) the variation of σz beneath the indenter obtained from FEA</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">In another work, applying FEM and nanomechanical experimental techniques, we are trying to determine the role of the different types of water present in the overall mechanical properties of a thin film.</p>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Molecular Mechanics of Solvated Polymer (Molecular Dynamics)</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The deformation characteristics of polymer films depend significantly on the response (relaxation, sliding, etc.) of the polymer chains to mechanical loading. Another factor which plays a major role, and is relatively difficult to understand, is the response of the free volume present in the matrix.</p>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">For saturated and partially saturated films, the phenomenon is even more complex, since the stress&ndash;strain response depends not only on the free volume, but also on how those free volumes are occupied by water and the type of water (free water, bound water etc.). Applying molecular dynamics simulations, we have studied the morphological changes in the free volumes at different strain percentages and, more interestingly, for different degrees of hydration. One of our results indicates that at low strain percentages the free volume mainly undergoes coalescence, whereas at higher strain percentages dissociation of free volume takes place.</p>
+</section>
+
+<section id="past" style="padding:48px clamp(20px,5vw,64px) 70px;max-width:1200px;margin:0 auto;border-top:1px solid #d2d2d7;">
+  <h2 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:clamp(26px,3vw,34px);margin:0 0 18px;">Past Research</h2>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:0 0 12px;">1. Influence of Mineral Proximity on Mechanics of Protein Domain</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Nacre, the inner shiny part of seashells (Fig 1), is composed of 90&ndash;95% aragonite (CaCO3) and the rest organics, mainly in the form of proteins and glycoproteins. The aragonite platelets are several microns in dimension in the X and Y directions and only a few nanometers in the Z direction. These platelets are stacked one over another with organics wrapped around them, giving rise to a layered nanocomposite (Fig 2).</p>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Nacre is widely studied as a model biomimetic system for next-generation advanced materials. The fracture toughness of nacre is about 3 orders of magnitude higher than pure aragonite. Previous studies reveal the possible contributions of different microstructural features to this property. The organics present in nacre show a high elastic modulus (15&ndash;20 GPa) besides their ability to undergo large deformation before failure. Our studies attempt to understand the possible reasons for this behavior of the organics.</p>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">As a part of this study, we focus on understanding the influence of mineral (aragonite) proximity on the mechanical behavior of the organics (protein domain) in nacre.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img1.jpg" alt="Fig 1: Inner part of sea shell (Nacre)" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 1: Inner part of sea shell (Nacre)</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img2.jpg" alt="Fig 2: SEM structure of nacre showing the platelets and organics (courtesy: Katti et al.)" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 2: SEM structure of nacre showing the platelets and organics (courtesy: Katti et al.)</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img3.jpg" alt="Fig 3: Load displacement plot for protein domain pulled in presence (blue) and in absence (green) of aragonite" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 3: Load displacement plot for protein domain pulled in presence (blue) and in absence (green) of aragonite</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img4.jpg" alt="Fig 4: The latching action giving rise to the peaks in the L-D curve. Left: latching just forming (base of the peak); right: latching about to break (top of the peak)" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 4: The latching action giving rise to the peaks in the L-D curve. Left: latching just forming (base of the peak); right: latching about to break (top of the peak)</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img5.jpg" alt="Fig 5: Molecular interaction between carbonate and water molecules" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 5: Molecular interaction between carbonate and water molecules</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img6.jpg" alt="Fig 6: Schematic representation of different components of interaction (courtesy: Katti et al.)" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 6: Schematic representation of different components of interaction (courtesy: Katti et al.)</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">2. Mechanics of Clay Interlayer with Different Degrees of Hydration</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Montmorillonite belongs to the smectite group of clay minerals. It is the most widely studied clay mineral because of its high swelling nature.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img7.jpg" alt="Fig 1: Different length scales of clay, schematic representation of T-O-T structure and the molecular model of dry sodium montmorillonite showing T-O-T layers" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 1: Different length scales of clay, schematic representation of T-O-T structure and the molecular model of dry sodium montmorillonite showing T-O-T layers</figcaption>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The interlayer of sodium montmorillonite was saturated with different water contents and then compressive load was applied. The load&ndash;deformation (stress&ndash;strain) characteristics were compared for different cases and, most importantly, the interactions of the water molecules with the clay siloxane (silica&ndash;oxygen) surface were studied.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img8.jpg" alt="Fig 2: Compressive load on montmorillonite with one water layer" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 2: Compressive load on montmorillonite with one water layer</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img9.jpg" alt="Fig 3: Compressive load on montmorillonite with three water layers" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 3: Compressive load on montmorillonite with three water layers</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img10.jpg" alt="Fig 4: Water molecules after loads applied" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 4: Water molecules after loads applied</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img11.jpg" alt="Fig 5: Interlayer stress-strain plot with dry, 1, 2 and 3 water layers" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 5: Interlayer stress-strain plot with dry, 1, 2 and 3 water layers</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img12.jpg" alt="" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">Mechanics of Clay Interlayer with Amino Acid as Inclusion Molecules</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The sodium ions in montmorillonite were replaced by positively charged amino acids and the load&ndash;deformation characteristics of the interlayer were studied under tensile and compressive stress paths. Attempts were also made to understand the interactions of the amino acid molecules with the clay.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img13.jpg" alt="Fig 6: Montmorillonite with positively charged amino acids under tension and compression" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 6: Montmorillonite with positively charged amino acids under tension and compression</figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img14.jpg" alt="Fig 7: Stress-strain plot under tension and compression" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+      <figcaption style="font-size:13px;line-height:1.5;color:#6e6e73;">Fig 7: Stress-strain plot under tension and compression</figcaption>
+    </figure>
+  </div>
+  <h3 style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:20px;margin:36px 0 12px;">3. Modeling and Synthesis of Polymer Clay Nanocomposites (PCN)</h3>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">Montmorillonite clay is extremely detrimental to civil engineers because of its expansive nature. However, it is the same ability to undergo expansion or exfoliation that makes montmorillonite attractive to materials scientists for the synthesis of polymer clay nanocomposites (PCN). In PCN, polymers (such as nylon 6) are reinforced with clay particles which have one dimension in the nanometer range, hence the name nanocomposite. Clay is usually hydrophilic in nature; it is modified with an organic modifier to make it hydrophobic before it is mixed with the polymer matrix.</p>
+  <div style="max-width:760px;margin:22px 0 26px;">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;">
+      <div style="background:#f5f5f7;border-radius:18px;overflow:hidden;display:flex;align-items:center;justify-content:center;"><img src="https://home.iitm.ac.in/pijush/images/past-img15.jpg" alt="" loading="lazy" style="width:100%;height:auto;display:block;"></div>
+    </figure>
+  </div>
+  <p style="font-size:15.5px;line-height:1.7;color:#1d1d1f;max-width:75ch;margin:0 0 16px;text-wrap:pretty;">The major objectives of this research were to find the interaction between different components of PCN and to understand whether the organic modifiers contribute to the mechanical properties of PCN. Both experimental and modeling techniques were applied.</p>
+</section>
+
+<footer style="padding:48px clamp(20px,5vw,64px) 32px;background:#f5f5f7;display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between;">
+  <div style="max-width:360px;">
+    <div style="font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:-0.015em;font-size:18px;">Nanomechanics Lab</div>
+    <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;margin-top:6px;">Department of Applied Mechanics</div>
+    <p style="font-size:13.5px;line-height:1.6;color:#6e6e73;margin-top:16px;">Indian Institute of Technology Madras, Mechanical Sciences Block (MSB), Room 224A, Chennai &ndash; 600036</p>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px;font-size:13.5px;">
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">Contact</span>
+    <a href="tel:+914422574060" style="text-decoration:none;">+91-44-2257-4060</a>
+    <a href="mailto:pijush@iitm.ac.in" style="text-decoration:none;">pijush@iitm.ac.in</a>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px;font-size:13.5px;">
+    <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#0071e3;">Elsewhere</span>
+    <a href="http://www.teachtolearn.co.in/" target="_blank" style="text-decoration:none;">Rural School Outreach</a>
+  </div>
+</footer>
+<div style="text-align:center;padding:16px;font-size:12px;color:#86868b;background:#f5f5f7;">&copy; 2026 Pijush Ghosh, Nanomechanics Lab, IIT Madras</div>
+
+</div>
+
+</x-dc>
+</body>
+</html>
